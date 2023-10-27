@@ -1,0 +1,47 @@
+html,body{
+    background-color: hwb(41 65% 1%);
+    box-sizing: border-box;
+    height: 100%;
+}
+div{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border-style: none;
+}
+.div1{
+    background-color: rgb(0, 204, 255);
+
+}
+.div2{
+    background-color: rgb(241, 39, 34);
+}
+.div3{
+    background-color: rgb(0, 204, 255);
+
+}
+.container{
+    border:5px solid #ffcc5c;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.search-input{
+    background-color:#ff6e68 ;
+    border:0;
+    width: 100%;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #ffeead;
+    color: #ffeead;
+}
+::placeholder{
+color:#ffeead;
+}
+.search-input:focus{
+    outline:none;
+}
+.container > li{
+    background-color: #96ceb4;
+}
